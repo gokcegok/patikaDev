@@ -1,0 +1,21 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin "Binary Search Tree" aşamaları:
+
+				
+            6              root, 6'dır.
+          /   \ 	   0. indexteki 7 > 6 olduğu için, 6'nın sağında bulunur.
+         5     7           1. indexteki 5 < 6 olduğu için, 6'nın solunda bulunur.   
+        /       \	   2. indexteki 1 < 6 olduğu için, 6'nın solunda,
+       1         8                      1 < 5 olduğu için, 5'in solunda bulunur.
+      / \         \        3. indexteki 8 > 6 olduğu için, 6'nın sağında,              
+     0   3         9	                8 > 7 olduğu için, 7'nin sağında bulunur.
+        / \		   4. indexteki 3 < 6 olduğu için, 6'nın solunda,		
+       2   4 		                3 > 1 olduğu için, 1'in sağında bulunur.
+  			   6. indexteki 0 < 6 olduğu için, 6'nın solunda,
+  					0 < 1 olduğu için, 1'in solunda bulunur.
+			   7. indexteki 9 > 6 olduğu için, 6'nın sağında,
+  					9 > 8 olduğu için, 8'in sağında bulunur.
+			   8. indexteki 4 < 6 olduğu için, 6'nın solunda,
+  					4 > 3 olduğu için, 3'ün sağında bulunur.
+			   9. indexteki 2 < 6 olduğu için, 6'nın solunda,
+  					2 < 3 olduğu için, 3'ün solunda bulunur.		
+			   
